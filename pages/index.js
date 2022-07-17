@@ -6,7 +6,10 @@ import {
   useColorModeValue,
   Button,
   Link,
+  List,
+  ListItem,
 } from "@chakra-ui/react";
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from "react-icons/io5";
 import NextLink from "next/link";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import Section from "../components/section";
@@ -110,6 +113,55 @@ const Page = () => {
           </Link>
           , Singing, AI
         </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Find Me On
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://github.com/realswikarrr" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                @realswikarrr
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://twitter.com/swikarr_" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              >
+                @swikarr_
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.instagram.com/swikarr_" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                @swikarr_
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
+
+        <Box align="center" my={4}>
+          <NextLink href="/posts" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Popular posts
+            </Button>
+          </NextLink>
+        </Box>
       </Section>
     </Container>
   );
