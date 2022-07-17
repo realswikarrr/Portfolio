@@ -3,8 +3,8 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { GridItem } from "../components/grid-item";
 
-import thumb500PaidUsers from "../public/images/contents/blog-500-paid-users.jpg";
-import thumbFinancialGoal from "../public/images/contents/blog-financial-goal.png";
+// import thumb500PaidUsers from "../public/images/contents/blog-500-paid-users.jpg";
+// import thumbFinancialGoal from "../public/images/contents/blog-financial-goal.png";
 import thumbHowToPriceYourself from "../public/images/contents/blog-how-to-price-yourself.jpg";
 
 const Posts = () => (
@@ -17,24 +17,25 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="How I’ve Attracted The First 500 Paid Users For My SaaS That Costs $5/mo"
-            thumbnail={thumb500PaidUsers}
+            title="How To Setup Dark Mode Using Chakra UI"
+            thumbnail={thumbHowToPriceYourself}
+            href="https://medium.com/@swikarr_/dark-mode-using-chakra-ui-5a596e8b7d6e"
           />
-          <GridItem
+          {/* <GridItem
             title="I stopped setting a financial goal for my SaaS"
             thumbnail={thumbFinancialGoal}
-          />
+          /> */}
         </SimpleGrid>
       </Section>
 
-      <Section delay={0.5}>
+      {/* <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="How to Price Yourself as a Freelance Developer"
             thumbnail={thumbHowToPriceYourself}
           />
         </SimpleGrid>
-      </Section>
+      </Section> */}
     </Container>
   </Layout>
 );
