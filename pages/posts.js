@@ -24,6 +24,7 @@ const Posts = () => (
           <GridItem
             title="Why Use Conventional Git Commits ?"
             thumbnail={thumbGit}
+            href="https://medium.com/@swikarr_/conventional-git-commits-88ca1e4e2298"
           />
         </SimpleGrid>
       </Section>
