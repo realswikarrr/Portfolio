@@ -74,7 +74,7 @@ const MyModel = () => {
       controls.target = target;
       setControls(controls);
 
-      loadGLTFModel(scene, "/dog.glb", {
+      loadGLTFModel(scene, "/pc.glb", {
         receiveShadow: false,
         castShadow: false,
       }).then(() => {
