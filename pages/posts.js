@@ -4,8 +4,8 @@ import Section from "../components/section";
 import { GridItem } from "../components/grid-item";
 
 // import thumb500PaidUsers from "../public/images/contents/blog-500-paid-users.jpg";
-// import thumbFinancialGoal from "../public/images/contents/blog-financial-goal.png";
-import thumbHowToPriceYourself from "../public/images/contents/blog-how-to-price-yourself.jpg";
+import thumbGit from "../public/images/contents/thumbGit.jpeg";
+import thumbDark from "../public/images/contents/darkThumb.png";
 
 const Posts = () => (
   <Layout title="Posts">
@@ -18,13 +18,13 @@ const Posts = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="How To Setup Dark Mode Using Chakra UI"
-            thumbnail={thumbHowToPriceYourself}
+            thumbnail={thumbDark}
             href="https://medium.com/@swikarr_/dark-mode-using-chakra-ui-5a596e8b7d6e"
           />
-          {/* <GridItem
-            title="I stopped setting a financial goal for my SaaS"
-            thumbnail={thumbFinancialGoal}
-          /> */}
+          <GridItem
+            title="Why Use Conventional Git Commits ?"
+            thumbnail={thumbGit}
+          />
         </SimpleGrid>
       </Section>
 
