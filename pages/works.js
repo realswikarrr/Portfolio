@@ -1,11 +1,10 @@
-import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
+import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "../components/section";
 import Layout from "../components/layouts/article";
 import { WorkGridItem } from "../components/grid-item";
 import thumbDiamond from "../public/works/diamondThumb.jpg";
 import thumbNiji from "../public/works/thumbNiji.jpeg";
 import thumbAmazon from "../public/works/thumbAmazon.png";
-import { GridItem } from "../components/grid-item";
 import thumbAnime from "../public/works/thumbAnime.png";
 
 const Works = () => {
