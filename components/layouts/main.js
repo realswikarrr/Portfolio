@@ -10,6 +10,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Swikar Adhikari</title>
         <meta name="description" content="Swikar's Home Page" />
         <meta name="author" content="Swikar Adhikari" />
         <meta name="author" content="swikarr_" />
