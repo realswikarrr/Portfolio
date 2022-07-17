@@ -3,6 +3,7 @@ import Navbar from "../navbar";
 import NoSsr from "../no-ssr";
 import { Box, Container } from "@chakra-ui/react";
 import MyModel from "../three-model";
+import Footer from "../footer";
 
 const Main = ({ children, router }) => {
   return (
@@ -20,6 +21,7 @@ const Main = ({ children, router }) => {
         </NoSsr>
 
         {children}
+        <Footer />
       </Container>
     </Box>
   );
