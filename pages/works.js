@@ -6,6 +6,7 @@ import thumbDiamond from "../public/works/diamondThumb.jpg";
 import thumbNiji from "../public/works/thumbNiji.jpeg";
 import thumbAmazon from "../public/works/thumbAmazon.png";
 import thumbAnime from "../public/works/thumbAnime.png";
+import thumbAnime2 from "../public/works/thumbAnime2.png";
 
 const Works = () => {
   return (
@@ -39,12 +40,13 @@ const Works = () => {
 
           <Section delay={0.1}>
             <WorkGridItem
-              id="amazonclone"
-              title="Amazon Clone"
-              href="https://github.com/realswikarrr/Amazon-Clone/tree/master"
-              thumbnail={thumbAmazon}
+              id="animer"
+              thumbnail={thumbAnime2}
+              href="https://github.com/realswikarrr/anime-recommendation"
+              title="Anime R"
             >
-              A Clone of E-commerce website Amazon.com with Authentication
+              A WebApp where it recommends you an anime using a API route
+              provided by kitsu.
             </WorkGridItem>
           </Section>
 
@@ -57,6 +59,17 @@ const Works = () => {
             >
               A Website where all kind of anime video are scraped from website
               like 9anime.
+            </WorkGridItem>
+          </Section>
+
+          <Section delay={0.2}>
+            <WorkGridItem
+              id="amazonclone"
+              title="Amazon Clone"
+              href="https://github.com/realswikarrr/Amazon-Clone/tree/master"
+              thumbnail={thumbAmazon}
+            >
+              A Clone of E-commerce website Amazon.com with Authentication
             </WorkGridItem>
           </Section>
         </SimpleGrid>
