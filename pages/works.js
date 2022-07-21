@@ -5,8 +5,8 @@ import { WorkGridItem } from "../components/grid-item";
 import thumbDiamond from "../public/works/diamondThumb.jpg";
 import thumbNiji from "../public/works/thumbNiji.jpeg";
 import thumbAmazon from "../public/works/thumbAmazon.png";
-import thumbAnime from "../public/works/thumbAnime.png";
 import thumbAnime2 from "../public/works/thumbAnime2.png";
+import thumbInsta from "../public/works/thumbInsta.png";
 
 const Works = () => {
   return (
@@ -26,6 +26,18 @@ const Works = () => {
               E-Commerce App Built Using React , MongoDB and Redux.
             </WorkGridItem>
           </Section>
+
+          <Section>
+            <WorkGridItem
+              title="Insta Link"
+              thumbnail={thumbInsta}
+              href="https://github.com/realswikarrr/insta-link"
+            >
+              A Full Stack Web Application Using t3 Stack (TypeScript, tRPC,
+              Tailwind, PlanetScale , Prisma and Next JS)
+            </WorkGridItem>
+          </Section>
+
           <Section>
             <WorkGridItem
               id="niji"
@@ -47,18 +59,6 @@ const Works = () => {
             >
               A WebApp where it recommends you an anime using a API route
               provided by kitsu.
-            </WorkGridItem>
-          </Section>
-
-          <Section delay={0.1}>
-            <WorkGridItem
-              id="swikaranime"
-              thumbnail={thumbAnime}
-              href="https://github.com/realswikarrr/anime-watch"
-              title="Swikar Anime"
-            >
-              A Website where all kind of anime video are scraped from website
-              like 9anime.
             </WorkGridItem>
           </Section>
 
