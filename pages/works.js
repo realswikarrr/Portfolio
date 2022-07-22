@@ -7,6 +7,7 @@ import thumbNiji from "../public/works/thumbNiji.jpeg";
 import thumbAmazon from "../public/works/thumbAmazon.png";
 import thumbAnime2 from "../public/works/thumbAnime2.png";
 import thumbInsta from "../public/works/thumbInsta.png";
+import thumbNPM from '../public/works/thumbNPM.png'
 
 const Works = () => {
   return (
@@ -38,7 +39,20 @@ const Works = () => {
             </WorkGridItem>
           </Section>
 
-          <Section>
+          <Section delay={0.1}>
+            <WorkGridItem
+              id="niji"
+              title="NPM ALL"
+              href="https://github.com/realswikarrr/npm-all"
+              thumbnail={thumbNPM}
+            >
+              A Full Stack t3 Stack App Where You Can Copy Paste NPM Easily (TypeScript, tRPC,
+              Chakra UI, PlanetScale , Prisma and Next JS)
+
+            </WorkGridItem>
+          </Section>
+
+          <Section delay={0.2}>
             <WorkGridItem
               id="niji"
               title="Property Website"
@@ -50,7 +64,7 @@ const Works = () => {
             </WorkGridItem>
           </Section>
 
-          <Section delay={0.1}>
+          <Section delay={0.3}>
             <WorkGridItem
               id="animer"
               thumbnail={thumbAnime2}
@@ -62,7 +76,7 @@ const Works = () => {
             </WorkGridItem>
           </Section>
 
-          <Section delay={0.2}>
+          <Section delay={0.4}>
             <WorkGridItem
               id="amazonclone"
               title="Amazon Clone"
